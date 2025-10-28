@@ -6,7 +6,7 @@
 
     <groupId>net.booone</groupId>
     <artifactId>chroma-league-jre</artifactId>
-    <version>25.36</version>
+    <version>25.0.0-36</version>
     <packaging>pom</packaging>
 
     <name>ChromaLeague-jre</name>
@@ -48,7 +48,7 @@
                             <descriptors>
                                 <descriptor>src/zip-cl-jre.xml</descriptor>
                             </descriptors>
-                            <finalName>cl-jre</finalName>
+                            <finalName>cl-jre-${project.version}</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
                         </configuration>
                     </execution>
